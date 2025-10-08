@@ -75,8 +75,9 @@ header {
     background: url('../images/profile.png') !important;
     background-size: cover;
     background-position: center;
-    width: 40%;
-    height: 90vh;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100vh;
 }
 
 .hero-section-button button {
