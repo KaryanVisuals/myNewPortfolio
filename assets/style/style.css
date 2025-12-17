@@ -371,6 +371,9 @@ input[type="checkbox"] {
     .hero-heading h1 {
         font-size: 90px;
     }
+    .wrapper ul li a{
+        font-size: 20px !important;
+    }
 
     .profile-img {
         top: 40%;
