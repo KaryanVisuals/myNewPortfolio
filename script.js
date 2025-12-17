@@ -65,37 +65,3 @@ window.addEventListener("wheel", function (dets) {
     })
   }
 })
-var tl = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".project-section",
-     scroller: "[data-scroll-container]",
-    start: "28% 50%",
-    end: "100% 50%",
-    scrub: 2,
-    // markers: true
-  }
-});
-tl.to("#project-part", {
-  top: "22%",
-}, 'a')
-tl.to("#project-part1", {
-  top: "100%",
-}, 'a')
-tl.to("#project-part1", {
-  top: "30%",
-}, 'b')
-tl.to("#project-part", {
-  width: "65%",
-  height: "65vh",
-}, 'b')
-tl.to("#project-part2", {
-  top: "100%",
-}, 'b')
-tl.to("#project-part2", {
-  top: "38%",
-}, 'c')
-tl.to("#project-part2", {
-  width: "70%",
-  height: "70vh",
-}, 'c')
-
