@@ -1,11 +1,4 @@
-function downloadResume() {
-  const link = document.createElement("a");
-  link.href = "resume.pdf";  // Replace with your file path
-  link.download = "My_Resume.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
+
 gsap.registerPlugin(ScrollTrigger);
 
 const scrollContainer = document.querySelector("[data-scroll-container]");
